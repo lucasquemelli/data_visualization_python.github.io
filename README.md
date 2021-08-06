@@ -69,3 +69,19 @@ Let's clean the data set to remove a few unnecessary columns. We can use pandas 
 
 ![image](https://user-images.githubusercontent.com/81119854/128511783-b2894319-0e43-4211-9fc9-3eb0e2d82757.png)
 
+Let's rename the columns so that they make sense. We can use rename() method by passing in a dictionary of old and new names as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128512126-3f09ac38-e9e0-4234-827e-ea090766f211.png)
+
+We will also add a 'Total' column that sums up the total immigrants by country over the entire period 1980 - 2013, as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128512252-ed59fdaa-e405-408e-9181-8ea83876ea5d.png)
+
+We can check to see how many null objects we have in the dataset as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128512322-68f2b9ad-4a09-4318-a85b-82f7283e19dc.png)
+
+Finally, let's view a quick summary of each column in our dataframe using the describe() method.
+
+![image](https://user-images.githubusercontent.com/81119854/128512397-403b703e-d0fe-42b0-882c-699e82a6f8ca.png)
+
