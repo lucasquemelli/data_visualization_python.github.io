@@ -215,3 +215,11 @@ Also, let's label the x and y axis using plt.title(), plt.ylabel(), and plt.xlab
 
 ![image](https://user-images.githubusercontent.com/81119854/128538717-4b7e93b5-e3cc-4218-88ac-499a5e66c2ad.png)
 
+We can clearly notice how number of immigrants from Haiti spiked up from 2010 as Canada stepped up its efforts to accept refugees from Haiti. Let's annotate this spike in the plot by using the plt.text() method.
+
+![image](https://user-images.githubusercontent.com/81119854/128539039-0788d696-4c5e-4e74-957c-4ac5eb3d8c0f.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128539071-ffb88b2a-8261-4633-b250-c10f5f108b65.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128539246-e8833367-fc37-4577-8bc3-31b4bda78bd3.png)
+
