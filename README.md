@@ -183,3 +183,35 @@ We may check if Matplotlib is loaded by doing:
 We also may apply a style to Matplotlib:
 
 ![image](https://user-images.githubusercontent.com/81119854/128537566-46395f71-b2a0-4e01-8b95-dcbd42c8fea5.png)
+
+Plotting in pandas
+Fortunately, pandas has a built-in implementation of Matplotlib that we can use. Plotting in pandas is as simple as appending a .plot() method to a series or dataframe.
+
+# Line Plots (Series/Dataframe)
+
+What is a line plot and why use it?
+
+A line chart or line plot is a type of plot which displays information as a series of data points called 'markers' connected by straight line segments. It is a basic type of chart common in many fields. Use line plot when you have a continuous data set. These are best suited for trend-based visualizations of data over a period of time.
+
+Let's start with a case study:
+
+In 2010, Haiti suffered a catastrophic magnitude 7.0 earthquake. The quake caused widespread devastation and loss of life and aout three million people were affected by this natural disaster. 
+
+As part of Canada's humanitarian effort, the Government of Canada stepped up its effort in accepting refugees from Haiti. We can quickly visualize this effort using a Line plot:
+
+Question: Plot a line graph of immigration from Haiti using df.plot().
+
+First, we will extract the data series for Haiti.
+
+![image](https://user-images.githubusercontent.com/81119854/128538242-fc09d886-b4a1-4815-abb8-7c40d80ea8d1.png)
+
+Next, we will plot a line plot by appending .plot() to the haiti dataframe.
+
+![image](https://user-images.githubusercontent.com/81119854/128538364-35cfe736-672f-4be5-b2b1-7f3e22034990.png)
+
+pandas automatically populated the x-axis with the index values (years), and the y-axis with the column values (population). However, notice how the years were not displayed because they are of type string. Therefore, let's change the type of the index values to integer for plotting.
+
+Also, let's label the x and y axis using plt.title(), plt.ylabel(), and plt.xlabel() as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128538717-4b7e93b5-e3cc-4218-88ac-499a5e66c2ad.png)
+
