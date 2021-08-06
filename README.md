@@ -58,3 +58,14 @@ To get the index and columns as lists, we can use the tolist() method.
 ![image](https://user-images.githubusercontent.com/81119854/128509396-6bf12d93-2873-4b27-bd80-3cb12d0817ac.png)
 
 ![image](https://user-images.githubusercontent.com/81119854/128509448-c95b868b-40ec-4196-a0b8-39ad19a2008f.png)
+
+To view the dimensions of the dataframe, we use the shape instance variable of it. (index,column)
+
+![image](https://user-images.githubusercontent.com/81119854/128511552-be4e29ba-1854-499b-9799-88bc5d14051d.png)
+
+Note: The main types stored in pandas objects are float, int, bool, datetime64[ns], datetime64[ns, tz], timedelta[ns], category, and object (string). In addition, these dtypes have item sizes, e.g. int64 and int32.
+
+Let's clean the data set to remove a few unnecessary columns. We can use pandas drop() method as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128511783-b2894319-0e43-4211-9fc9-3eb0e2d82757.png)
+
