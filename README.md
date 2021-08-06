@@ -156,3 +156,7 @@ For example, Let's filter the dataframe to show the data on Asian countries (Are
 
 ![image](https://user-images.githubusercontent.com/81119854/128536379-5df4e662-9bf7-4ddc-9396-c04f1725d6cf.png)
 
+Before we proceed: let's review the changes we have made to our dataframe.
+
+![image](https://user-images.githubusercontent.com/81119854/128536519-19c4f255-ec83-4124-afe7-e97fff19f02b.png)
+
