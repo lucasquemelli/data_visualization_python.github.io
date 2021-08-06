@@ -85,3 +85,22 @@ Finally, let's view a quick summary of each column in our dataframe using the de
 
 ![image](https://user-images.githubusercontent.com/81119854/128512397-403b703e-d0fe-42b0-882c-699e82a6f8ca.png)
 
+pandas Intermediate: Indexing and Selection (slicing)
+
+Select Column
+There are two ways to filter on a column name:
+
+![image](https://user-images.githubusercontent.com/81119854/128520582-a3f2e28e-c6e8-4aa4-a35e-66c507e53bd2.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128520617-de33d836-e552-4218-93ca-11ab5787a751.png)
+
+Example: Let's try filtering on the list of countries ('Country').
+
+![image](https://user-images.githubusercontent.com/81119854/128520951-b9614521-69f5-442d-9fc6-8a7899e1ad42.png)
+
+Let's try filtering on the list of countries ('Country') and the data for years: 1980 - 1985.
+
+![image](https://user-images.githubusercontent.com/81119854/128521039-c6b60b6a-ed5b-4ccf-85e9-a10b59324c7c.png)
+
+Select Row
+
