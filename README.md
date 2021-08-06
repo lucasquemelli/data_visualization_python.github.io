@@ -160,3 +160,26 @@ Before we proceed: let's review the changes we have made to our dataframe.
 
 ![image](https://user-images.githubusercontent.com/81119854/128536519-19c4f255-ec83-4124-afe7-e97fff19f02b.png)
 
+# Visualizing data with Matplotlib
+
+Matplotlib: Standard Python Visualization Library
+
+Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shell, the jupyter notebook, web application servers, and four graphical user interface toolkits.
+
+Matplotlib.Pyplot
+
+One of the core aspects of Matplotlib is matplotlib.pyplot. It is Matplotlib's scripting layer which we studied in details in the videos about Matplotlib. Recall that it is a collection of command style functions that make Matplotlib work like MATLAB.
+
+Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc. In this lab, we will work with the scripting layer to learn how to generate line plots.
+
+Let's start by importing matplotlib and matplotlib.pyplot as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128537310-6d92491f-d47d-48cc-b066-52693458c41d.png)
+
+We may check if Matplotlib is loaded by doing:
+
+![image](https://user-images.githubusercontent.com/81119854/128537427-12668bb8-454b-4288-b07c-a330b368e004.png)
+
+We also may apply a style to Matplotlib:
+
+![image](https://user-images.githubusercontent.com/81119854/128537566-46395f71-b2a0-4e01-8b95-dcbd42c8fea5.png)
