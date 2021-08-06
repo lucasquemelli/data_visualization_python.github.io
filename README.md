@@ -257,4 +257,7 @@ Line plot is a handy tool to display several dependent variables against one ind
 
 ![image](https://user-images.githubusercontent.com/81119854/128542383-1fee9eb8-40e7-4db3-b316-2a137d925c11.png)
 
+There are many other plotting styles available other than the default Line plot, all of which can be accessed by passing kind keyword to plot(). The full list of available plots are as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128542583-5f7edd01-81c7-475c-8c41-2176b0f9e9eb.png)
 
