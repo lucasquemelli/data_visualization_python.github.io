@@ -223,3 +223,21 @@ We can clearly notice how number of immigrants from Haiti spiked up from 2010 as
 
 ![image](https://user-images.githubusercontent.com/81119854/128539246-e8833367-fc37-4577-8bc3-31b4bda78bd3.png)
 
+![image](https://user-images.githubusercontent.com/81119854/128540262-11fb010c-c361-406f-a51e-2bbd8e7d2612.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128540378-42c09b55-03f3-4480-b37c-12704526bb43.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128540435-330e0842-8f32-426b-abc4-434b772d351a.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128540589-60fe7e2c-3bb0-47d7-a265-a07ba3249579.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128540643-48d660c3-f584-441e-bf9f-0e4f15567dc5.png)
+
+Recall that pandas plots the indices on the x-axis and the columns as individual lines on the y-axis. Since df_CI is a dataframe with the country as the index and years as the columns, we must first transpose the dataframe using transpose() method to swap the row and columns.
+
+![image](https://user-images.githubusercontent.com/81119854/128540982-9dce19e2-ad40-4db9-97a7-0d9648017752.png)
+
+pandas will auomatically graph the two countries on the same graph. Go ahead and plot the new transposed dataframe. Make sure to add a title to the plot and label the axes.
+
+![image](https://user-images.githubusercontent.com/81119854/128541327-8cffaa3f-c133-464c-8493-e695c9cdb9d8.png)
+
