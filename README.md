@@ -144,3 +144,15 @@ Since we converted the years to string, let's declare a variable that will allow
 
 ![image](https://user-images.githubusercontent.com/81119854/128522961-6aba353d-82ea-4002-86dd-edccd3bfcb09.png)
 
+Filtering based on a criteria
+
+To filter the dataframe based on a condition, we simply pass the condition as a boolean vector.
+
+For example, Let's filter the dataframe to show the data on Asian countries (AreaName = Asia).
+
+![image](https://user-images.githubusercontent.com/81119854/128536195-acad60d1-d574-4273-b7fd-14aa7899acaf.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128536279-af51ed4c-a6b0-4a73-a80e-9f5a34a1d8bd.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128536379-5df4e662-9bf7-4ddc-9396-c04f1725d6cf.png)
+
