@@ -104,3 +104,27 @@ Let's try filtering on the list of countries ('Country') and the data for years:
 
 Select Row
 
+There are main 2 ways to select rows:
+
+![image](https://user-images.githubusercontent.com/81119854/128521144-948d7cf2-5b38-4ab8-a8a3-6882f108cb3a.png)
+
+Before we proceed, notice that the default index of the dataset is a numeric range from 0 to 194. This makes it very difficult to do a query by a specific country. For example to search for data on Japan, we need to know the corresponding index value.
+
+This can be fixed very easily by setting the 'Country' column as the index using set_index() method.
+
+![image](https://user-images.githubusercontent.com/81119854/128521413-dda9d28a-751d-4337-8c8d-3fa793f17bbf.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128521485-a3361042-96a1-474c-8971-0a9ec7b8c6e3.png)
+
+Example: Let's view the number of immigrants from Japan (row 87) for the following scenarios: 1. The full row data (all columns) 2. For year 2013 3. For years 1980 to 1985
+
+![image](https://user-images.githubusercontent.com/81119854/128521841-6b84df65-f06f-4379-b47d-f89a78f8b48d.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128521911-9d7f4976-87bf-45f6-a8bf-604396aebaf6.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128521969-bb29f062-22bd-4abc-b7f2-a51093de20b7.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128522060-ace6b422-6104-481a-bda4-2f113994d7e5.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128522221-cf243a88-c5aa-46ea-9d16-5443da20eb05.png)
+
