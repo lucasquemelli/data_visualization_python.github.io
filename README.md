@@ -241,3 +241,20 @@ pandas will auomatically graph the two countries on the same graph. Go ahead and
 
 ![image](https://user-images.githubusercontent.com/81119854/128541327-8cffaa3f-c133-464c-8493-e695c9cdb9d8.png)
 
+From the above plot, we can observe that the China and India have very similar immigration trends through the years.
+
+![image](https://user-images.githubusercontent.com/81119854/128541713-bb181aba-3278-4b7b-9ff8-861dfb6b4383.png)
+
+Line plot is a handy tool to display several dependent variables against one independent variable. However, it is recommended that no more than 5-10 lines on a single graph; any more than that and it becomes difficult to interpret.
+
+![image](https://user-images.githubusercontent.com/81119854/128542102-b2a03790-7e05-40cb-8d0b-824137333fa8.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128542138-6065ce7b-ef37-468e-a570-fdd613a915a4.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128542186-920949ed-c3c7-4217-a040-22c563dcbe55.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128542338-3861b752-105a-407f-96ed-b6c757c082b7.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128542383-1fee9eb8-40e7-4db3-b316-2a137d925c11.png)
+
+
