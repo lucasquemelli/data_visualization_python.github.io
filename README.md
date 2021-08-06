@@ -128,3 +128,19 @@ Example: Let's view the number of immigrants from Japan (row 87) for the followi
 
 ![image](https://user-images.githubusercontent.com/81119854/128522221-cf243a88-c5aa-46ea-9d16-5443da20eb05.png)
 
+[Japan,position number]
+
+![image](https://user-images.githubusercontent.com/81119854/128522618-89c5fa8f-bf27-4028-81ac-1a0e56bb7aa3.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128522684-d17f0865-058f-4fe8-adac-3cd8ef1a8597.png)
+
+Column names that are integers (such as the years) might introduce some confusion. For example, when we are referencing the year 2013, one might confuse that when the 2013th positional index.
+
+To avoid this ambuigity, let's convert the column names into strings: '1980' to '2013'.
+
+![image](https://user-images.githubusercontent.com/81119854/128522812-d8427339-4e68-435f-96ea-4be61c2e2ef9.png)
+
+Since we converted the years to string, let's declare a variable that will allow us to easily call upon the full range of years:
+
+![image](https://user-images.githubusercontent.com/81119854/128522961-6aba353d-82ea-4002-86dd-edccd3bfcb09.png)
+
