@@ -595,4 +595,40 @@ The above visual is not very clear, the numbers and text overlap in some instanc
 
 ![image](https://user-images.githubusercontent.com/81119854/128775477-6c69fa67-c50b-4e47-80c6-2604614e2276.png)
 
+![image](https://user-images.githubusercontent.com/81119854/128778837-5bf8a73a-db87-4ec9-8e3a-00cd71584ce4.png)
 
+![image](https://user-images.githubusercontent.com/81119854/128779175-d2b12aa5-27a0-4e77-85d1-7f581bcf820e.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128779248-a8708aed-0c5c-4073-aa42-7d33f53df2da.png)
+
+Box Plots
+
+![image](https://user-images.githubusercontent.com/81119854/128779475-77ef2447-77b6-44c5-adfc-34a473f68fd5.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128779528-193bc0a1-71a4-4605-aa87-d9f2590b5bf0.png)
+
+To make a boxplot, we can use kind=box in plot method invoked on a pandas series or dataframe.
+
+Let's plot the box plot for the Japanese immigrants between 1980 - 2013.
+
+Step 1: Get the subset of the dataset. Even though we are extracting the data for just one country, we will obtain it as a dataframe. This will help us with calling the dataframe.describe() method to view the percentiles.
+
+![image](https://user-images.githubusercontent.com/81119854/128779866-1551acf4-e3f6-44e3-8dd3-a0c4c51197d6.png)
+
+Step 2: Plot by passing in kind='box'.
+
+![image](https://user-images.githubusercontent.com/81119854/128779976-bc9ce582-112d-483e-a6ea-846be36b2cef.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128779996-3d414fc3-8084-439d-b541-18f6b52bf645.png)
+
+We can immediately make a few key observations from the plot above:
+
+1. The minimum number of immigrants is around 200 (min), maximum number is around 1300 (max), and median number of immigrants is around 900 (median).
+2. 25% of the years for period 1980 - 2013 had an annual immigrant count of ~500 or fewer (First quartile).
+3. 75% of the years for period 1980 - 2013 had an annual immigrant count of ~1100 or fewer (Third quartile).
+
+We can view the actual numbers by calling the describe() method on the dataframe.
+
+![image](https://user-images.githubusercontent.com/81119854/128780251-954f2b36-771f-4a31-87e2-dc1ff8563dcf.png)
+
+One of the key benefits of box plots is comparing the distribution of multiple datasets. In one of the previous labs, we observed that China and India had very similar immigration trends. Let's analyze these two countries further using box plots.
