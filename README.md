@@ -541,3 +541,41 @@ Changing the color of the bars:
 
 # Specialized Visualization Tools: Pie Charts, Box Plots, Scatter Plots, and Bubble Plots
 
+![image](https://user-images.githubusercontent.com/81119854/128773508-1f6f65fb-3024-447d-90e0-16162578697d.png)
+
+Download the dataset and read it into a pandas dataframe.
+
+![image](https://user-images.githubusercontent.com/81119854/128773598-2ea5c6ec-f265-41be-8c9a-8ab21f5dc7b4.png)
+
+Let's take a look at the first five items in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/128773644-ee13365f-c3fc-4f3b-a279-cfbc379563be.png)
+
+Let's find out how many entries there are in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/128773716-7815160f-a566-4c7e-8334-63c1a34d4395.png)
+
+Clean up data. We will make some modifications to the original dataset to make it easier to create our visualizations.
+
+![image](https://user-images.githubusercontent.com/81119854/128773886-faff8fb6-5396-48bd-afe4-59a92d9ab329.png)
+
+Visualizing Data using Matplotlib
+
+![image](https://user-images.githubusercontent.com/81119854/128773953-89d4f61c-405a-4022-b11e-28460e7edcce.png)
+
+Pie Charts 
+
+A pie chart is a circular graphic that displays numeric proportions by dividing a circle (or pie) into proportional slices. You are most likely already familiar with pie charts as it is widely used in business and media. We can create pie charts in Matplotlib by passing in the kind=pie keyword.
+
+Let's use a pie chart to explore the proportion (percentage) of new immigrants grouped by continents for the entire time period from 1980 to 2013.
+
+Step 1: Gather data.
+
+![image](https://user-images.githubusercontent.com/81119854/128774265-a3dc3d0a-96ab-4c7d-9978-eb8eddaa01dd.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128774304-52d01841-6f88-4dc3-8798-ef931690359b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128774468-ad9ff68a-3ec6-41ba-bf33-678bf719ea07.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128774588-064de690-ae13-4058-b14f-eac943ef6836.png)
+
