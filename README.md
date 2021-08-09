@@ -261,3 +261,52 @@ There are many other plotting styles available other than the default Line plot,
 
 ![image](https://user-images.githubusercontent.com/81119854/128542583-5f7edd01-81c7-475c-8c41-2176b0f9e9eb.png)
 
+# Basic Visualization Tools
+
+Exploring Datasets with pandas and Matplotlib
+
+The course heavily relies on pandas and Numpy for data wrangling, analysis, and visualization. The primary plotting library that we are exploring in the course is Matplotlib.
+ 
+Dataset: Immigration to Canada from 1980 to 2013. The dataset contains annual data on the flows of international migrants as recorded by the countries of destination (but we focus on Canada). The data presents both inflows and outflows according to the place of birth, citizenship or place of previous / next residence both for foreigners and nationals. 
+
+Downloading and Prepping Data
+
+![image](https://user-images.githubusercontent.com/81119854/128712235-710f0285-8a8f-4de9-92f4-76defa1a58d5.png)
+
+Let's download and import our primary Canadian Immigration dataset using pandas's read_excel() method. Normally, before we can do that, we would need to download a module which pandas requires reading in Excel files. This module was openpyxl (formerlly xlrd). 
+
+We have pre-installed this module, so we would not have to worry about that. Otherwise, we would need to run the following line of code to install the openpyxl module:
+
+![image](https://user-images.githubusercontent.com/81119854/128712862-0dd94452-4438-4b71-a0a9-70719f968c24.png)
+
+Download the dataset and read it into a pandas dataframe.
+
+![image](https://user-images.githubusercontent.com/81119854/128713015-0b50b44e-8a79-4d82-bed5-300d8caaf4ce.png)
+
+Let's take a look at the first five items in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/128713116-f493bdf8-ff02-481c-916c-895a50e70e33.png)
+
+Let's find out how many entries there are in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/128713227-6a6550c7-9d85-467c-9b5d-14ea978aa53d.png)
+
+Clean up data. We will make some modifications to the original dataset to make it easier to create our visualizations.
+
+1. Clean up the dataset to remove columns that are not informative to us for visualization (eg. Type, AREA, REG).
+
+![image](https://user-images.githubusercontent.com/81119854/128713453-668913c9-9bad-4536-89d2-654ea5da6bca.png)
+
+2. Rename some of the columns so that they make sense.
+
+![image](https://user-images.githubusercontent.com/81119854/128713775-3ddd6483-81e2-4814-b433-8d09fd244952.png)
+
+3. For consistency, ensure that all column labels are of type string.
+
+![image](https://user-images.githubusercontent.com/81119854/128714021-0b087d3e-2d96-4a11-9cce-bb978abb488b.png)
+
+Notice how the above line of code returned False when we tested if all the column labels are of type string. So let's change them all to string type.
+
+![image](https://user-images.githubusercontent.com/81119854/128714116-44843408-28e3-4de8-8cb2-2ef74f8d6ec8.png)
+
+
