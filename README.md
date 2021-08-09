@@ -583,5 +583,16 @@ Step 2: Plot the data. We will pass in kind = 'pie' keyword, along with the foll
 
 ![image](https://user-images.githubusercontent.com/81119854/128774684-8df04589-3681-4463-b866-df1a42d6a1d5.png)
 
-![image](https://user-images.githubusercontent.com/81119854/128774886-d2e330a4-09a0-4b5f-b68d-1c8c1095f0ac.png)
+![image](https://user-images.githubusercontent.com/81119854/128775121-23fb444e-0677-41d3-a56e-fb618c7b9d69.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128775144-b0a10faa-02e2-46d3-bbe0-5902d874857f.png)
+
+The above visual is not very clear, the numbers and text overlap in some instances. Let's make a few modifications to improve the visuals:
+
+![image](https://user-images.githubusercontent.com/81119854/128775207-25b99cba-d62d-41fa-b269-2afca00c6287.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128775430-f160e8c9-6615-4203-a3e0-6554c5d03a7d.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128775477-6c69fa67-c50b-4e47-80c6-2604614e2276.png)
+
 
