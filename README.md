@@ -349,4 +349,26 @@ The unstacked plot has a default transparency (alpha value) at 0.5. We can modif
 
 ![image](https://user-images.githubusercontent.com/81119854/128718891-e2696136-f4bd-419f-a508-8fd53e5066c1.png)
 
+Two types of plotting
+
+There are two styles/options of plotting with matplotlib, plotting using the Artist layer and plotting using the scripting layer.
+
+![image](https://user-images.githubusercontent.com/81119854/128739750-32a2a6fa-cd0b-484a-8828-0755b68a2a8b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128739961-7ea20267-6553-4aad-b307-47127834b6de.png)
+
+This option sometimes is more transparent and flexible to use for advanced plots (in particular when having multiple plots, as you will see later).
+
+In this course, we will stick to the scripting layer, except for some advanced visualizations where we will need to use the artist layer to manipulate advanced aspects of the plots.
+
+![image](https://user-images.githubusercontent.com/81119854/128740305-05655f81-943a-460e-a670-7ca998c1295b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128740378-af407066-7557-42a2-8de0-221597967349.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128742546-453e3b25-8cba-4b5a-bd0e-1a3903051148.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128742583-18e3d2ea-bbbe-4efd-bbef-3c811e8020e2.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128742641-14f6beb0-7ecf-4568-9377-72ab6478c80e.png)
+
 
