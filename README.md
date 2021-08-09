@@ -325,4 +325,10 @@ So now our dataframe has 38 columns instead of 37 columns that we had before.
 
 ![image](https://user-images.githubusercontent.com/81119854/128716351-85d9e70b-4d1c-4baf-a5a7-6ed03b9c0d81.png)
 
+Visualizing Data using Matplotlib
+
+Import the matplotlib library.
+
+![image](https://user-images.githubusercontent.com/81119854/128716872-73bcf9a1-7266-4964-9430-dc589a898a0b.png)
+
 
