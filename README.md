@@ -390,3 +390,40 @@ Now using the "ascending=False" and the tail function:
 ![image](https://user-images.githubusercontent.com/81119854/128745336-34a0a048-bf6e-4d52-803c-932e17ac0bcc.png)
 
 ![image](https://user-images.githubusercontent.com/81119854/128745406-1d09df26-360e-4947-a9bb-d217b210802e.png)
+
+Histograms
+
+A histogram is a way of representing the frequency distribution of numeric dataset. The way it works is it partitions the x-axis into bins, assigns each data point in our dataset to a bin, and then counts the number of data points that have been assigned to each bin. So the y-axis is the frequency or the number of data points in each bin.
+
+![image](https://user-images.githubusercontent.com/81119854/128757177-3dffcaf9-795a-4c48-bde9-1919b7d675a0.png)
+
+Before we proceed with creating the histogram plot, let's first examine the data split into intervals. To do this, we will use Numpy's histrogram method to get the bin ranges and frequency counts as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128757377-b1e641ea-3f7d-4958-888c-734eaf5ccb49.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128757563-9b7c1d83-9324-469c-ad41-2aadc603fdb8.png)
+
+By default, the histrogram method breaks up the dataset into 10 bins. The figure below summarizes the bin ranges and the frequency distribution of immigration in 2013. We can see that in 2013:
+
+![image](https://user-images.githubusercontent.com/81119854/128757744-ee2a6f4f-448d-4b6e-93b0-100df338d933.png)
+
+We can easily graph this distribution by passing kind=hist to plot().
+
+![image](https://user-images.githubusercontent.com/81119854/128757830-6cc000ca-63a1-45e8-86ee-11166a25a027.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128757942-e0552a28-facf-4b20-ad22-d76ad3473c9f.png)
+
+In the above plot, the x-axis represents the population range of immigrants in intervals of 3412.9. The y-axis represents the number of countries that contributed to the aforementioned population.
+
+Notice that the x-axis labels do not match with the bin size. This can be fixed by passing in a xticks keyword that contains the list of the bin sizes, as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128758078-d85ebb6f-fe65-46a4-9a61-c8f6462fa85f.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128758198-0c1e6d18-105b-4e0f-85e4-e7e2aa31d700.png)
+
+We could use df_can['2013'].plot.hist(), instead. In fact, throughout this lesson, using some_data.plot(kind='type_plot', ...) is equivalent to some_data.plot.type_plot(...). That is, passing the type of the plot as argument or method behaves the same.
+
+We can also plot multiple histograms on the same plot.
+
+![image](https://user-images.githubusercontent.com/81119854/128758346-44ff418e-e6d0-4d8b-a253-cce35928e2a5.png)
+
