@@ -579,3 +579,9 @@ Step 1: Gather data.
 
 ![image](https://user-images.githubusercontent.com/81119854/128774588-064de690-ae13-4058-b14f-eac943ef6836.png)
 
+Step 2: Plot the data. We will pass in kind = 'pie' keyword, along with the following additional parameters:
+
+![image](https://user-images.githubusercontent.com/81119854/128774684-8df04589-3681-4463-b866-df1a42d6a1d5.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128774886-d2e330a4-09a0-4b5f-b68d-1c8c1095f0ac.png)
+
