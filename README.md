@@ -427,3 +427,20 @@ We can also plot multiple histograms on the same plot.
 
 ![image](https://user-images.githubusercontent.com/81119854/128758346-44ff418e-e6d0-4d8b-a253-cce35928e2a5.png)
 
+![image](https://user-images.githubusercontent.com/81119854/128758619-48830911-9269-458d-aae1-461d7722feb2.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128758680-fc0be67a-a01a-4600-af3a-b863eab728ee.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128758775-50130c2a-3062-4b56-9ffc-f1120efd4069.png)
+
+That does not look right. We'll often come across situations like this when creating plots. The solution often lies in how the underlying dataset is structured. Instead of plotting the population frequency distribution of the population for the 3 countries, pandas instead plotted the population frequency distribution for the years.
+
+This can be easily fixed by first transposing the dataset, and then plotting as shown below.
+
+![image](https://user-images.githubusercontent.com/81119854/128759135-5318a5ed-5e88-44d8-a7d7-16e794f5a504.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128759195-1a4b7da3-892a-442d-a390-59c92b01f6af.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128759235-2e402237-1096-4423-9ee2-55e4c0a0815c.png)
+
+
