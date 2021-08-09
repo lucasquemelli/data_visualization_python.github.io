@@ -451,3 +451,11 @@ Let's make a few modifications to improve the impact and aesthetics of the previ
 
 ![image](https://user-images.githubusercontent.com/81119854/128759721-66875dbf-a7d9-4115-b790-62ea0ec48c0d.png)
 
+![image](https://user-images.githubusercontent.com/81119854/128760165-dca3d773-9bca-4c6e-9e01-fd68a66674fe.png)
+
+If we do not want the plots to overlap each other, we can stack them using the stacked parameter. Let's also adjust the min and max x-axis labels to remove the extra gap on the edges of the plot. We can pass a tuple (min,max) using the xlim paramater, as show below.
+
+![image](https://user-images.githubusercontent.com/81119854/128760314-be5cba5a-aa8c-457d-8f4e-a1f3ce43d068.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128760351-af5b6bc7-61c3-4526-889f-477457f8e43f.png)
+
