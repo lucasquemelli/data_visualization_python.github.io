@@ -461,3 +461,7 @@ If we do not want the plots to overlap each other, we can stack them using the s
 
 ![image](https://user-images.githubusercontent.com/81119854/128760558-2f79d716-5f83-4e06-ba04-85d29e5b62da.png)
 
+![image](https://user-images.githubusercontent.com/81119854/128761210-65d759d1-0dc2-4043-b5a3-34a2219983f0.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128761245-7162892d-1ac3-4e2c-b005-78d690057392.png)
+
