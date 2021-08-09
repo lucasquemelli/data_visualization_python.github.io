@@ -465,3 +465,70 @@ If we do not want the plots to overlap each other, we can stack them using the s
 
 ![image](https://user-images.githubusercontent.com/81119854/128761245-7162892d-1ac3-4e2c-b005-78d690057392.png)
 
+Bar Charts (Dataframe)
+
+A bar plot is a way of representing data where the length of the bars represents the magnitude/size of the feature/variable. Bar graphs usually represent numerical and categorical variables grouped in intervals.
+
+To create a bar plot, we can pass one of two arguments via kind parameter in plot():
+
+![image](https://user-images.githubusercontent.com/81119854/128763226-dc3caa15-87ac-4992-ad49-cbcb7e5a0179.png)
+
+Vertical bar plot
+
+In vertical bar graphs, the x-axis is used for labelling, and the length of bars on the y-axis corresponds to the magnitude of the variable being measured. Vertical bar graphs are particularly useful in analyzing time series data. One disadvantage is that they lack space for text labelling at the foot of each bar.
+
+Let's start off by analyzing the effect of Iceland's Financial Crisis:
+
+The 2008 - 2011 Icelandic Financial Crisis was a major economic and political event in Iceland. Relative to the size of its economy, Iceland's systemic banking collapse was the largest experienced by any country in economic history. The crisis led to a severe economic depression in 2008 - 2011 and significant political unrest.
+
+![image](https://user-images.githubusercontent.com/81119854/128763564-ddcd57da-0662-4e88-9129-2382cd1c3cd7.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128763633-6f730e52-006e-42e3-9552-c9cc3702b8e5.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128763695-d764e8ad-573e-4089-891f-901cd1eed2c5.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128763729-6f8be934-98b8-47e2-b4d2-588e71b966c8.png)
+
+The bar plot above shows the total number of immigrants broken down by each year. We can clearly see the impact of the financial crisis; the number of immigrants to Canada started increasing rapidly after 2008.
+
+Let's annotate this on the plot using the annotate method of the scripting layer or the pyplot interface. We will pass in the following parameters:
+
+![image](https://user-images.githubusercontent.com/81119854/128764080-66ae9a16-0baf-4fe0-8f28-4e0103edd083.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128764463-7b832d5d-4b95-4593-9451-f999a2507974.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128764506-c7b89d0c-5369-4d26-943f-b0626d804bf9.png)
+
+Let's also annotate a text to go over the arrow. We will pass in the following additional parameters:
+
+![image](https://user-images.githubusercontent.com/81119854/128764584-2d2f3708-7e13-4a84-92c4-67f01144e44c.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128764629-8ca1cf43-3e04-4b79-a3c6-71b229193849.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128764671-58ec65de-cabf-46e2-8274-e480fa5e2dcd.png)
+
+Horizontal Bar Plot
+
+Sometimes it is more practical to represent the data horizontally, especially if you need more room for labelling the bars. In horizontal bar graphs, the y-axis is used for labelling, and the length of bars on the x-axis corresponds to the magnitude of the variable being measured. As you will see, there is more room on the y-axis to label categorical variables.
+
+![image](https://user-images.githubusercontent.com/81119854/128764796-b5be12c4-07bb-4753-b909-8494388cad5e.png)
+
+Step 1: Get the data pertaining to the top 15 countries.
+
+![image](https://user-images.githubusercontent.com/81119854/128765241-13901bb6-b5fd-4cff-bba7-20825d9d095c.png)
+
+Step 2: Plot data:
+
+![image](https://user-images.githubusercontent.com/81119854/128765307-dca091aa-7447-4c80-9dc6-84fbe09a1744.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128767522-5323402b-5307-493d-84b9-ef3e1070e961.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128767602-50943b10-9ca4-4357-af77-a9171255949c.png)
+
+In order to use the function annotate, try:
+
+#annotate value labels to each country
+for index, value in enumerate(df_top15): 
+        label = format(int(value), ',') # format int with commas
+#place text at the end of bar (subtracting 47000 from x, and 0.1 from y to make it fit within the bar)
+        plt.annotate(label, xy=(value - 47000, index - 0.10), color='white')
