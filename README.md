@@ -331,4 +331,22 @@ Import the matplotlib library.
 
 ![image](https://user-images.githubusercontent.com/81119854/128716872-73bcf9a1-7266-4964-9430-dc589a898a0b.png)
 
+Area Plots
+
+In the last module, we created a line plot that visualized the top 5 countries that contribued the most immigrants to Canada from 1980 to 2013. With a little modification to the code, we can visualize this plot as a cumulative plot, also knows as a Stacked Line Plot or Area plot.
+
+![image](https://user-images.githubusercontent.com/81119854/128717434-8bcb076b-9d27-43f7-95f2-b863df4ceddf.png)
+
+Area plots are stacked by default. And to produce a stacked area plot, each column must be either all positive or all negative values (any NaN, i.e. not a number, values will default to 0). To produce an unstacked plot, set parameter stacked to value False.
+
+![image](https://user-images.githubusercontent.com/81119854/128717932-d6a50743-c22e-4a04-b8e0-901d035a018f.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128718037-76bd5076-0214-4079-a203-b076f47b6bd7.png)
+
+The unstacked plot has a default transparency (alpha value) at 0.5. We can modify this value by passing in the alpha parameter.
+
+![image](https://user-images.githubusercontent.com/81119854/128718767-fc93a630-bde8-4119-9b50-628f5aad849b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128718891-e2696136-f4bd-419f-a508-8fd53e5066c1.png)
+
 
