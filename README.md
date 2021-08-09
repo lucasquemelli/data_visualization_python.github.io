@@ -538,3 +538,6 @@ Changing the color of the bars:
 ![image](https://user-images.githubusercontent.com/81119854/128767836-0914f94e-688e-4b57-84d9-b83d491bb927.png)
 
 ![image](https://user-images.githubusercontent.com/81119854/128767877-dc13d4a5-6147-4156-b83e-a8535bbd2a86.png)
+
+# Specialized Visualization Tools: Pie Charts, Box Plots, Scatter Plots, and Bubble Plots
+
