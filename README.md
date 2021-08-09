@@ -532,3 +532,9 @@ for index, value in enumerate(df_top15):
         label = format(int(value), ',') # format int with commas
 #place text at the end of bar (subtracting 47000 from x, and 0.1 from y to make it fit within the bar)
         plt.annotate(label, xy=(value - 47000, index - 0.10), color='white')
+
+Changing the color of the bars:
+
+![image](https://user-images.githubusercontent.com/81119854/128767836-0914f94e-688e-4b57-84d9-b83d491bb927.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128767877-dc13d4a5-6147-4156-b83e-a8535bbd2a86.png)
