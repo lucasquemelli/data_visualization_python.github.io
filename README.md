@@ -377,3 +377,16 @@ By changing the ascending to "False", we get another way to answer this:
 
 ![image](https://user-images.githubusercontent.com/81119854/128743216-31d38d75-8ba9-4474-b177-45108bd69fcc.png)
 
+Notice that when using "ascending = True", we start with the minimum vale of the number of immigrants. Otherwise, when setting "ascending = False", the tail function finds the last five countries with the least number of immigrants - by starting with the highest to the least number. This influences the order of the countries in the graph.  
+
+![image](https://user-images.githubusercontent.com/81119854/128744940-e09f138a-5e8e-425b-9cee-ced83443fb47.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128744993-eddada2e-be91-4ee1-b2ed-a1f5aca77c05.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128745056-7c2f5898-3ddf-43e1-8c18-a3574e6b4dba.png)
+
+Now using the "ascending=False" and the tail function:
+
+![image](https://user-images.githubusercontent.com/81119854/128745336-34a0a048-bf6e-4d52-803c-932e17ac0bcc.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128745406-1d09df26-360e-4947-a9bb-d217b210802e.png)
