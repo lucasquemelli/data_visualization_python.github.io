@@ -443,4 +443,11 @@ This can be easily fixed by first transposing the dataset, and then plotting as 
 
 ![image](https://user-images.githubusercontent.com/81119854/128759235-2e402237-1096-4423-9ee2-55e4c0a0815c.png)
 
+Let's make a few modifications to improve the impact and aesthetics of the previous plot:
+
+![image](https://user-images.githubusercontent.com/81119854/128759595-d72abff7-6482-431b-8c68-130b29f9cce3.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128759624-cbac66d4-e8af-4f0e-bbe8-a6e66b26ec20.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128759721-66875dbf-a7d9-4115-b790-62ea0ec48c0d.png)
 
