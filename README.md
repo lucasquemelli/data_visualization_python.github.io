@@ -371,4 +371,9 @@ In this course, we will stick to the scripting layer, except for some advanced v
 
 ![image](https://user-images.githubusercontent.com/81119854/128742641-14f6beb0-7ecf-4568-9377-72ab6478c80e.png)
 
+By changing the ascending to "False", we get another way to answer this:
+
+![image](https://user-images.githubusercontent.com/81119854/128743126-fdbb151a-f85e-44f4-9c81-3e26ef6ccc89.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128743216-31d38d75-8ba9-4474-b177-45108bd69fcc.png)
 
