@@ -309,4 +309,20 @@ Notice how the above line of code returned False when we tested if all the colum
 
 ![image](https://user-images.githubusercontent.com/81119854/128714116-44843408-28e3-4de8-8cb2-2ef74f8d6ec8.png)
 
+4. Set the country name as index - useful for quickly looking up countries using .loc method.
+
+![image](https://user-images.githubusercontent.com/81119854/128715763-30b6b7b6-5933-4805-a790-d2d47b246c55.png)
+
+5. Add total column.
+
+![image](https://user-images.githubusercontent.com/81119854/128715902-c4b5015e-6a26-44a5-bb71-5f276d20017c.png)
+
+Now the dataframe has an extra column that presents the total number of immigrants from each country in the dataset from 1980 - 2013. So if we print the dimension of the data, we get:
+
+![image](https://user-images.githubusercontent.com/81119854/128716108-a96cb2b0-2271-406b-aefc-64336b476b19.png)
+
+So now our dataframe has 38 columns instead of 37 columns that we had before.
+
+![image](https://user-images.githubusercontent.com/81119854/128716351-85d9e70b-4d1c-4baf-a5a7-6ed03b9c0d81.png)
+
 
