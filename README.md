@@ -657,3 +657,19 @@ If we prefer to create horizontal box plots, we can pass the vert parameter in t
 
 ![image](https://user-images.githubusercontent.com/81119854/128870742-8506fad0-e2c4-48c4-8119-744bb8f4ad07.png)
 
+Subplots
+
+Often times we might want to plot multiple plots within the same figure. For example, we might want to perform a side by side comparison of the box plot with the line plot of China and India's immigration.
+
+To visualize multiple plots together, we can create a figure (overall canvas) and divide it into subplots, each containing a plot. With subplots, we usually work with the artist layer instead of the scripting layer.
+
+![image](https://user-images.githubusercontent.com/81119854/128871293-02839d13-004a-42d3-af69-ca73220ae05b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128871326-5468e7af-fca1-4acb-b14e-5a5fa4252c36.png)
+
+We can then specify which subplot to place each plot by passing in the ax paramemter in plot() method as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/128871898-f79baa81-81a1-4b76-8b0a-1c4b13441eea.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128871955-9c7caa11-67b3-4afc-9103-13c481f4930b.png)
+
