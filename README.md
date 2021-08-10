@@ -774,3 +774,52 @@ As a side note, we can observe that immigration took a dip around 1993 - 1997. F
 
 ![image](https://user-images.githubusercontent.com/81119854/128900732-abfb3dbe-9f8f-4141-b543-1e4d3c70db6f.png)
 
+Bubble Plots 
+
+A bubble plot is a variation of the scatter plot that displays three dimensions of data (x, y, z). The data points are replaced with bubbles, and the size of the bubble is determined by the third variable z, also known as the weight. In maplotlib, we can pass in an array or scalar to the parameter s to plot(), that contains the weight of each point.
+
+Let's start by analyzing the effect of Argentina's great depression.
+
+Argentina suffered a great depression from 1998 to 2002, which caused widespread unemployment, riots, the fall of the government, and a default on the country's foreign debt. In terms of income, over 50% of Argentines were poor, and seven out of ten Argentine children were poor at the depth of the crisis in 2002.
+
+Let's analyze the effect of this crisis, and compare Argentina's immigration to that of it's neighbour Brazil. Let's do that using a bubble plot of immigration from Brazil and Argentina for the years 1980 - 2013. We will set the weights for the bubble as the normalized value of the population for each year.
+
+Step 1: Get the data for Brazil and Argentina. Like in the previous example, we will convert the Years to type int and include it in the dataframe.
+
+![image](https://user-images.githubusercontent.com/81119854/128903517-99ea0abf-1c3d-4fce-a6b8-6a9ff3bf8f2c.png)
+
+Step 2: Create the normalized weights.
+
+There are several methods of normalizations in statistics, each with its own use. In this case, we will use feature scaling to bring all values into the range [0, 1]. The general formula is:
+
+![image](https://user-images.githubusercontent.com/81119854/128903646-cccdbd65-7966-4eb3-b114-c1a9bdb553e2.png)
+
+where  𝑋  is the original value,  𝑋′  is the corresponding normalized value. The formula sets the max value in the dataset to 1, and sets the min value to 0. The rest of the data points are scaled to a value between 0-1 accordingly.
+
+![image](https://user-images.githubusercontent.com/81119854/128903789-bd215571-fe3d-40f0-a918-4a68bb332de0.png)
+
+Step 3: Plot the data.
+
+![image](https://user-images.githubusercontent.com/81119854/128903905-0e0c14a3-ac5b-4a3d-9c03-9f899c2507c4.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128904118-9a733bfc-b9be-4569-a301-243e2c47a2c4.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128904227-0cae6b48-faeb-4530-8418-7db419141aad.png)
+
+The size of the bubble corresponds to the magnitude of immigrating population for that year, compared to the 1980 - 2013 data. The larger the bubble is, the more immigrants are in that year.
+
+From the plot above, we can see a corresponding increase in immigration from Argentina during the 1998 - 2002 great depression. We can also observe a similar spike around 1985 to 1993. In fact, Argentina had suffered a great depression from 1974 to 1990, just before the onset of 1998 - 2002 great depression.
+
+On a similar note, Brazil suffered the Samba Effect where the Brazilian real (currency) dropped nearly 35% in 1999. There was a fear of a South American financial crisis as many South American countries were heavily dependent on industrial exports from Brazil. The Brazilian government subsequently adopted an austerity program, and the economy slowly recovered over the years, culminating in a surge in 2010. The immigration data reflect these events.
+
+![image](https://user-images.githubusercontent.com/81119854/128904644-cf63078d-97f7-435a-ad45-298fd420fa41.png)
+
+Step 1: Normalize the data pertaining to China and India.
+
+![image](https://user-images.githubusercontent.com/81119854/128904807-9b306d14-e086-41e0-8415-27ca694950be.png)
+
+Step 2: Generate the bubble plots.
+
+![image](https://user-images.githubusercontent.com/81119854/128905122-5362147d-089f-436f-a367-aec0bd3330d7.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128905186-5af2c0f2-359f-4995-b882-b5f85e527058.png)
