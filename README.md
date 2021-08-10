@@ -722,3 +722,26 @@ Outlier > 209,611.5
 
 ![image](https://user-images.githubusercontent.com/81119854/128881421-e5b5af7e-6913-4829-a2a7-d8075d54a186.png)
 
+Scatter Plots
+
+A scatter plot (2D) is a useful method of comparing variables against each other. Scatter plots look similar to line plots in that they both map independent and dependent variables on a 2D graph. While the data points are connected together by a line in a line plot, they are not connected in a scatter plot. 
+
+The data in a scatter plot is considered to express a trend. With further analysis using tools like regression, we can mathematically calculate this relationship and use it to predict trends outside the dataset.
+
+Let's start by exploring the following:
+
+Using a scatter plot, let's visualize the trend of total immigrantion to Canada (all countries combined) for the years 1980 - 2013.
+
+Step 1: Get the dataset. Since we are expecting to use the relationship betewen years and total population, we will convert years to int type.
+
+![image](https://user-images.githubusercontent.com/81119854/128895700-24cd921c-168e-432f-8291-511259057ebc.png)
+
+Step 2: Plot the data. In Matplotlib, we can create a scatter plot set by passing in kind='scatter' as plot argument. We will also need to pass in x and y keywords to specify the columns that go on the x- and the y-axis.
+
+![image](https://user-images.githubusercontent.com/81119854/128895815-d86d2be7-a86c-4a45-a318-3010af97657a.png)
+
+Notice how the scatter plot does not connect the data points together. We can clearly observe an upward trend in the data: as the years go by, the total number of immigrants increases. We can mathematically analyze this upward trend using a regression line (line of best fit).
+
+So let's try to plot a linear line of best fit, and use it to predict the number of immigrants in 2015.
+
+
