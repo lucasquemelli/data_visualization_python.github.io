@@ -645,3 +645,15 @@ Let's view the percentiles associated with both countries using the describe() m
 
 Step 2: Plot data.
 
+![image](https://user-images.githubusercontent.com/81119854/128870316-ec483bf0-9977-4c2f-a021-bafd06da0181.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128870368-8dc0f446-6746-4d45-a39f-5d6877ea5d78.png)
+
+We can observe that, while both countries have around the same median immigrant population (~20,000), China's immigrant population range is more spread out than India's. The maximum population from India for any year (36,210) is around 15% lower than the maximum population from China (42,584).
+
+If we prefer to create horizontal box plots, we can pass the vert parameter in the plot function and assign it to False. We can also specify a different color.
+
+![image](https://user-images.githubusercontent.com/81119854/128870701-3fe44ca5-a922-46f8-90d0-52cc262e74af.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128870742-8506fad0-e2c4-48c4-8119-744bb8f4ad07.png)
+
