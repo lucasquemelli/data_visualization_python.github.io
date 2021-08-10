@@ -846,3 +846,78 @@ Clean up data. We will make some modifications to the original dataset to make i
 
 ![image](https://user-images.githubusercontent.com/81119854/128943215-55720c2d-f144-4526-8241-9cb697c8b65b.png)
 
+Visualizing Data using Matplotlib
+
+Import and setup matplotlib:
+
+![image](https://user-images.githubusercontent.com/81119854/128944208-f9c7594c-41a0-4c7c-9642-c542885e4cfd.png)
+
+Waffle Charts
+
+A waffle chart is an interesting visualization that is normally created to display progress toward goals. It is commonly an effective option when you are trying to add interesting visualization features to a visual that consists mainly of cells, such as an Excel dashboard.
+
+Let's revisit the previous case study about Denmark, Norway, and Sweden.
+
+![image](https://user-images.githubusercontent.com/81119854/128944357-05693960-8ee9-48d7-aea6-75f9766e64c0.png)
+
+Unfortunately, unlike R, waffle charts are not built into any of the Python visualization libraries. Therefore, we will learn how to create them from scratch.
+
+Step 1. The first step into creating a waffle chart is determing the proportion of each category with respect to the total.
+
+![image](https://user-images.githubusercontent.com/81119854/128944558-c2acef48-6554-408a-b5da-d1a4709591dd.png)
+
+Step 2. The second step is defining the overall size of the waffle chart.
+
+![image](https://user-images.githubusercontent.com/81119854/128944655-3bd809a7-1010-4dff-89c7-df99d4157a46.png)
+
+Step 3. The third step is using the proportion of each category to determine its respective number of tiles.
+
+![image](https://user-images.githubusercontent.com/81119854/128944835-2b17aed4-9eee-4d56-aa43-66dfd8616290.png)
+
+Based on the calculated proportions, Denmark will occupy 129 tiles of the waffle chart, Norway will occupy 77 tiles, and Sweden will occupy 194 tiles.
+
+Step 4. The fourth step is creating a matrix that resembles the waffle chart and populating it.
+
+![image](https://user-images.githubusercontent.com/81119854/128944982-ecc07a3e-fb33-448f-93c5-e9064e2c46ae.png)
+
+Let's take a peek at how the matrix looks like.
+
+![image](https://user-images.githubusercontent.com/81119854/128945061-1d325826-a2cc-4f6e-9238-2d0656251ffa.png)
+
+As expected, the matrix consists of three categories and the total number of each category's instances matches the total number of tiles allocated to each category.
+
+Step 5. Map the waffle chart matrix into a visual.
+
+![image](https://user-images.githubusercontent.com/81119854/128945158-7d70fe13-1eab-497f-a92e-75704be91ab5.png)
+
+Step 6. Prettify the chart.
+
+![image](https://user-images.githubusercontent.com/81119854/128945311-001e777e-16f1-431e-8124-af7236c2155e.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128945376-95bce791-0469-4d0e-bd06-e948e272d7a8.png)
+
+Step 7. Create a legend and add it to chart.
+
+![image](https://user-images.githubusercontent.com/81119854/128945438-2ed17a04-21b1-4f97-9fef-0420f7e64959.png)
+![image](https://user-images.githubusercontent.com/81119854/128945463-ecfb96a6-234e-4904-a7ca-6e185b56eb94.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128945495-9b1fc97a-7d58-48bc-8aef-399e6366b43d.png)
+
+Now it would very inefficient to repeat these seven steps every time we wish to create a waffle chart. So let's combine all seven steps into one function called create_waffle_chart. This function would take the following parameters as input:
+
+![image](https://user-images.githubusercontent.com/81119854/128945570-27298626-1cd4-40ca-b8b5-32c6d185e003.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128945672-5aef1119-bdfd-4cbb-9d63-8b0315aa0384.png)
+![image](https://user-images.githubusercontent.com/81119854/128945708-f9e04756-8dbe-46d2-b3db-f6cd43eb0f19.png)
+![image](https://user-images.githubusercontent.com/81119854/128945746-78a84a36-7cb8-4dfd-a60a-3f28b6446c91.png)
+
+Now to create a waffle chart, all we have to do is call the function create_waffle_chart. Let's define the input parameters:
+
+![image](https://user-images.githubusercontent.com/81119854/128945785-661035a4-cf33-4a6c-ad09-00b4c4b4d5c6.png)
+
+And now let's call our function to create a waffle chart.
+
+![image](https://user-images.githubusercontent.com/81119854/128945822-782a0a42-2e4e-4319-b390-e6fad55c3a00.png)
+
+There seems to be a new Python package for generating waffle charts called PyWaffle.
+
