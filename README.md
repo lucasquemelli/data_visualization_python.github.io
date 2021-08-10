@@ -746,3 +746,31 @@ So let's try to plot a linear line of best fit, and use it to predict the number
 
 ![image](https://user-images.githubusercontent.com/81119854/128897001-a530ce16-73f6-4352-98ec-7bbf4f732126.png)
 
+![image](https://user-images.githubusercontent.com/81119854/128897129-748a4438-bf79-4dfc-8cf7-71c3c0813fc3.png)
+
+The output is an array with the polynomial coefficients, highest powers first. Since we are plotting a linear regression y= a * x + b, our output has 2 elements [5.56709228e+03, -1.09261952e+07] with the the slope in position 0 and intercept in position 1.
+
+Step 2: Plot the regression line on the scatter plot.
+
+![image](https://user-images.githubusercontent.com/81119854/128897595-2963126b-bef8-444e-a337-3edb585b577b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128897649-ce0febe9-af9e-4095-9908-b34229eeb998.png)
+
+Using the equation of line of best fit, we can estimate the number of immigrants in 2015:
+
+![image](https://user-images.githubusercontent.com/81119854/128897828-d1280051-47c3-43f3-865e-1367bce775c0.png)
+
+When compared to the actual from Citizenship and Immigration Canada's (CIC) 2016 Annual Report, we see that Canada accepted 271,845 immigrants in 2015. Our estimated value of 291,310 is within 7% of the actual number, which is pretty good considering our original data came from United Nations (and might differ slightly from CIC data).
+
+As a side note, we can observe that immigration took a dip around 1993 - 1997. Further analysis into the topic revealed that in 1993 Canada introcuded Bill C-86 which introduced revisions to the refugee determination system, mostly restrictive. Further amendments to the Immigration Regulations cancelled the sponsorship required for "assisted relatives" and reduced the points awarded to them, making it more difficult for family members (other than nuclear family) to immigrate to Canada. These restrictive measures had a direct impact on the immigration numbers for the next several years.
+
+![image](https://user-images.githubusercontent.com/81119854/128898380-5512e44f-d553-4af3-8472-4fe85b8c6457.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128900382-e205e3cf-91cf-4b15-b689-859876c708f1.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128900439-96502982-c150-4a11-b739-31ed331dc9c1.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128900683-ead8e343-2cff-4fdb-a81e-9669312d8304.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128900732-abfb3dbe-9f8f-4141-b543-1e4d3c70db6f.png)
+
