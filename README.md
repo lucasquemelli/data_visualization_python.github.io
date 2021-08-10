@@ -744,4 +744,5 @@ Notice how the scatter plot does not connect the data points together. We can cl
 
 So let's try to plot a linear line of best fit, and use it to predict the number of immigrants in 2015.
 
+![image](https://user-images.githubusercontent.com/81119854/128897001-a530ce16-73f6-4352-98ec-7bbf4f732126.png)
 
