@@ -703,3 +703,22 @@ Let's learn more about the statistics associated with the dataframe using the de
 
 Step 3: Plot the box plots.
 
+![image](https://user-images.githubusercontent.com/81119854/128880614-a2e65376-1346-416d-966e-700e3a7643cf.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128880661-03d5f331-bbd3-41d6-83e4-ed99468d7246.png)
+
+Note how the box plot differs from the summary table created. The box plot scans the data and identifies the outliers. In order to be an outlier, the data value must be:
+
+![image](https://user-images.githubusercontent.com/81119854/128881124-fa7eab08-b81a-4bfc-bd94-2883f43422f3.png)
+
+Let's look at decade 2000s as an example:
+
+![image](https://user-images.githubusercontent.com/81119854/128881174-1bf964e8-4f5b-4f93-b4ca-278fca427d89.png)
+
+Using the definition of outlier, any value that is greater than Q3 by 1.5 times IQR will be flagged as outlier.
+
+Outlier > 105,505.5 + (1.5 * 69,404)
+Outlier > 209,611.5
+
+![image](https://user-images.githubusercontent.com/81119854/128881421-e5b5af7e-6913-4829-a2a7-d8075d54a186.png)
+
