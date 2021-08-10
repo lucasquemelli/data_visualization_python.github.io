@@ -673,3 +673,4 @@ We can then specify which subplot to place each plot by passing in the ax parame
 
 ![image](https://user-images.githubusercontent.com/81119854/128871955-9c7caa11-67b3-4afc-9103-13c481f4930b.png)
 
+nrows * ncol = plot_number -> the plot_number is the layout of the graph. In this case, there are two graphs side by side: 2 columns and 1 line.
