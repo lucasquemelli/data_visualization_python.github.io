@@ -697,3 +697,9 @@ Step 2: Create a new dataframe which contains the aggregate for each decade. One
 
 ![image](https://user-images.githubusercontent.com/81119854/128878992-3ee72bb7-c5eb-4a8b-a4bd-10c7ae216788.png)
 
+Let's learn more about the statistics associated with the dataframe using the describe() method.
+
+![image](https://user-images.githubusercontent.com/81119854/128879587-22ae71f8-b5c3-4bb5-9ed5-6474ebc51b8d.png)
+
+Step 3: Plot the box plots.
+
