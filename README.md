@@ -674,3 +674,26 @@ We can then specify which subplot to place each plot by passing in the ax parame
 ![image](https://user-images.githubusercontent.com/81119854/128871955-9c7caa11-67b3-4afc-9103-13c481f4930b.png)
 
 nrows * ncol = plot_number -> the plot_number is the layout of the graph. In this case, there are two graphs side by side: 2 columns and 1 line. Line: two graphs. Column 1: box plot. Column 2: line.
+
+![image](https://user-images.githubusercontent.com/81119854/128877934-eb343782-5ca3-4bd1-8e9a-7b903aee1f60.png)
+
+Let's try something a little more advanced.
+
+Previously we identified the top 15 countries based on total immigration from 1980 - 2013.
+
+![image](https://user-images.githubusercontent.com/81119854/128878064-1d7f62e6-e945-47fe-941a-191923a8e9c1.png)
+
+Step 1: Get the dataset. Get the top 15 countries based on Total immigrant population. Name the dataframe df_top15.
+
+![image](https://user-images.githubusercontent.com/81119854/128878337-289399e2-ff51-4650-9c42-87edb9a99b0d.png)
+
+Step 2: Create a new dataframe which contains the aggregate for each decade. One way to do that:
+
+1. Create a list of all years in decades 80's, 90's, and 00's.
+2. Slice the original dataframe df_can to create a series for each decade and sum across all years for each country.
+3. Merge the three series into a new data frame. Call your dataframe new_df.
+
+![image](https://user-images.githubusercontent.com/81119854/128878951-efa2c6e1-2e2b-4661-868d-fae755614d7b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128878992-3ee72bb7-c5eb-4a8b-a4bd-10c7ae216788.png)
+
