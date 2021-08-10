@@ -632,3 +632,16 @@ We can view the actual numbers by calling the describe() method on the dataframe
 ![image](https://user-images.githubusercontent.com/81119854/128780251-954f2b36-771f-4a31-87e2-dc1ff8563dcf.png)
 
 One of the key benefits of box plots is comparing the distribution of multiple datasets. In one of the previous labs, we observed that China and India had very similar immigration trends. Let's analyze these two countries further using box plots.
+
+![image](https://user-images.githubusercontent.com/81119854/128869046-a630199f-be65-4364-aced-e6a24a78de72.png)
+
+Step 1: Get the dataset for China and India and call the dataframe df_CI.
+
+![image](https://user-images.githubusercontent.com/81119854/128869712-44cb149e-d599-4817-a121-a85bf1b8c097.png)
+
+Let's view the percentiles associated with both countries using the describe() method.
+
+![image](https://user-images.githubusercontent.com/81119854/128869853-07e08e79-cf2c-4a50-a021-ded1fe4bc895.png)
+
+Step 2: Plot data.
+
