@@ -823,3 +823,26 @@ Step 2: Generate the bubble plots.
 ![image](https://user-images.githubusercontent.com/81119854/128905122-5362147d-089f-436f-a367-aec0bd3330d7.png)
 
 ![image](https://user-images.githubusercontent.com/81119854/128905186-5af2c0f2-359f-4995-b882-b5f85e527058.png)
+
+# Advanced Visualization Tools: Waffle Charts, Word Clouds, and Regression Plots
+
+Downloading and Prepping Data
+
+Import Primary Modules:
+
+![image](https://user-images.githubusercontent.com/81119854/128942733-d1ec3ed5-a26f-4db8-aa73-80f29f908788.png)
+
+Download the dataset and read it into a pandas dataframe:
+
+![image](https://user-images.githubusercontent.com/81119854/128942867-5e37d320-5edc-4e9f-84c3-de6a3193a515.png)
+
+![image](https://user-images.githubusercontent.com/81119854/128942912-7047d9bb-2915-4382-8958-3ef27afbc3a6.png)
+
+How many entries there are in our dataset?
+
+![image](https://user-images.githubusercontent.com/81119854/128942991-74ee509c-2735-471e-9758-77ca0a348cf9.png)
+
+Clean up data. We will make some modifications to the original dataset to make it easier to create our visualizations.
+
+![image](https://user-images.githubusercontent.com/81119854/128943215-55720c2d-f144-4526-8241-9cb697c8b65b.png)
+
