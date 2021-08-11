@@ -978,3 +978,31 @@ Shaping the word cloud according to the mask is straightforward using word_cloud
 
 ![image](https://user-images.githubusercontent.com/81119854/129037887-1b97f7d1-7aa4-4fd5-9a16-abfa26239d82.png)
 
+![image](https://user-images.githubusercontent.com/81119854/129038212-41b3e00a-1ae2-4910-af90-3919cea3d41b.png)
+
+Unfortunately, our immigration data does not have any text data, but where there is a will there is a way. Let's generate sample text data from our immigration dataset, say text data of 90 words.
+
+Let's recall how our data looks like.
+
+![image](https://user-images.githubusercontent.com/81119854/129038451-4094f89f-ad0d-4f32-a8d8-e3278831a191.png)
+
+And what was the total immigration from 1980 to 2013?
+
+![image](https://user-images.githubusercontent.com/81119854/129038560-9dc2ee0d-96ff-4667-a5f9-ada180d0a423.png)
+
+Using countries with single-word names, let's duplicate each country's name based on how much they contribute to the total immigration.
+
+![image](https://user-images.githubusercontent.com/81119854/129039362-a9b131de-5e75-4307-bec2-d84129ec325d.png)
+
+We are not dealing with any stopwords here, so there is no need to pass them when creating the word cloud.
+
+![image](https://user-images.githubusercontent.com/81119854/129039517-33dc6875-14e4-4207-b668-6a993b200b1c.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129039600-bda2f089-ac60-48b1-b167-8946a16a793b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129039676-362ab1ae-1580-4d52-8f13-216690fc48b2.png)
+
+According to the above word cloud, it looks like the majority of the people who immigrated came from one of 15 countries that are displayed by the word cloud. One cool visual that we could build, is perhaps the map of Canada and a mask and superimposing the word cloud on top of the map of Canada. 
+
+
+
