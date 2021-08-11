@@ -921,3 +921,21 @@ And now let's call our function to create a waffle chart.
 
 There seems to be a new Python package for generating waffle charts called PyWaffle.
 
+Word Clouds
+
+Word clouds (also known as text clouds or tag clouds) work in a simple way: the more a specific word appears in a source of textual data (such as a speech, blog post, or database), the bigger and bolder it appears in the word cloud.
+
+Luckily, a Python package already exists in Python for generating word clouds. The package, called word_cloud was developed by Andreas Mueller.
+
+Let's use this package to learn how to generate a word cloud for a given text document.
+
+First, let's install the package.
+
+![image](https://user-images.githubusercontent.com/81119854/129034380-609a4974-5663-4896-bbb5-974efd20043b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129035258-6a8a32a1-8a71-4104-82b2-1f505cd0fe0c.png)
+
+Word clouds are commonly used to perform high-level analysis and visualization of text data. Accordinly, let's digress from the immigration dataset and work with an example that involves analyzing text data. Let's try to analyze a short novel written by Lewis Carroll titled Alice's Adventures in Wonderland. Let's go ahead and download a .txt file of the novel.
+
+![image](https://user-images.githubusercontent.com/81119854/129035413-b23fcb1d-ae45-4545-bdc4-3a99c7aee452.png)
+
