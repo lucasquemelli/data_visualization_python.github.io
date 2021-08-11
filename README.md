@@ -1146,3 +1146,9 @@ Let's create a Stamen Terrain map of Canada with zoom level 4.
 
 ![image](https://user-images.githubusercontent.com/81119854/129076129-ea171343-0eca-445a-823f-e326fc1fd0db.png)
 
+![image](https://user-images.githubusercontent.com/81119854/129076405-0b9efd55-c2ca-4e9d-a204-e94a58d33641.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129076452-48bad9c2-c2ec-4be1-bf5e-fe2e3725e54b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129076496-81826a52-5737-4d15-a9ab-5f2e426ade68.png)
+
