@@ -1066,3 +1066,8 @@ Or to a white background with gridlines.
 
 ![image](https://user-images.githubusercontent.com/81119854/129044130-3706726a-23d7-4731-8dff-1776077f9827.png)
 
+![image](https://user-images.githubusercontent.com/81119854/129044564-f48dbfec-7a63-48e2-936e-abe3ef694c99.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129045017-2adce47d-ebe7-455c-9561-dd38bc850209.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129045125-e38c2d06-8092-43f4-b558-dda62927284f.png)
