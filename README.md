@@ -1071,3 +1071,8 @@ Or to a white background with gridlines.
 ![image](https://user-images.githubusercontent.com/81119854/129045017-2adce47d-ebe7-455c-9561-dd38bc850209.png)
 
 ![image](https://user-images.githubusercontent.com/81119854/129045125-e38c2d06-8092-43f4-b558-dda62927284f.png)
+
+# Creating Maps and Visualizing Geospatial Data
+
+In this lab, we will learn how to create maps for different objectives. To do that, we will part ways with Matplotlib and work with another Python visualization library, namely Folium.
+
