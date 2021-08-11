@@ -1218,3 +1218,63 @@ To implement this, we start off by instantiating a MarkerCluster object and addi
 
 Notice how when you zoom out all the way, all markers are grouped into one cluster, the global cluster, of 100 markers or crimes, which is the total number of crimes in our dataframe. Once you start zooming in, the global cluster will start breaking up into smaller clusters. Zooming in all the way will result in individual markers.
 
+Choropleth Maps
+
+A Choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as population density or per-capita income. 
+
+The choropleth map provides an easy way to visualize how a measurement varies across a geographic area, or it shows the level of variability within a region. Below is a Choropleth map of the US depicting the population by square mile per state.
+
+![image](https://user-images.githubusercontent.com/81119854/129080063-0bfd2554-ec6d-46c8-9efe-5ed5ae60649b.png)
+
+Now, let's create our own Choropleth map of the world depicting immigration from various countries to Canada.
+
+Let's first download and import our primary Canadian immigration dataset using pandas read_excel() method. Normally, before we can do that, we would need to download a module which pandas requires reading in Excel files. 
+
+This module was openpyxl (formerly xlrd). For your convenience, we have pre-installed this module, so you would not have to worry about that. Otherwise, you would need to run the following line of code to install the openpyxl module:
+
+! pip3 install openpyxl
+
+Download the dataset and read it into a pandas dataframe:
+
+![image](https://user-images.githubusercontent.com/81119854/129080248-ba38e90d-3956-4277-9ff5-c6d3ef3d7fda.png)
+
+Let's take a look at the first five items in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/129080335-8b4da6ec-82e7-4e25-865f-0e653aa6e48d.png)
+
+Let's find out how many entries there are in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/129080411-cfff19a0-ca9e-43c0-8d6d-4637e5474a51.png)
+
+Clean up data. We will make some modifications to the original dataset to make it easier to create our visualizations. Refer to Introduction to Matplotlib and Line Plots and Area Plots, Histograms, and Bar Plots notebooks for a detailed description of this preprocessing.
+
+![image](https://user-images.githubusercontent.com/81119854/129080516-4c737693-d52e-4abe-af8c-5bdd9e3cf035.png)
+
+Let's take a look at the first five items of our cleaned dataframe.
+
+![image](https://user-images.githubusercontent.com/81119854/129080563-32688bae-83c1-42c6-bf2b-ab160e22cbe5.png)
+
+In order to create a Choropleth map, we need a GeoJSON file that defines the areas/boundaries of the state, county, or country that we are interested in. In our case, since we are endeavoring to create a world map, we want a GeoJSON that defines the boundaries of all world countries. For your convenience, we will be providing you with this file, so let's go ahead and download it. Let's name it world_countries.json.
+
+![image](https://user-images.githubusercontent.com/81119854/129080688-8851f4b8-a05e-468e-b1cf-7cfdf3c0d7c8.png)
+
+Now that we have the GeoJSON file, let's create a world map, centered around [0, 0] latitude and longitude values, with an initisal zoom level of 2.
+
+![image](https://user-images.githubusercontent.com/81119854/129080786-9a595f27-e313-4585-8ab2-1d58420fff76.png)
+
+And now to create a Choropleth map, we will use the choropleth method with the following main parameters:
+
+![image](https://user-images.githubusercontent.com/81119854/129080842-8c83ce69-40ef-4bf5-a525-53c8441dc09f.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129080869-d6c3f47d-a394-4aee-9ccb-689b8cc9db3a.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129080889-2129b3cb-e5fb-4ce0-bf58-75adcfa30e6f.png)
+
+As per our Choropleth map legend, the darker the color of a country and the closer the color to red, the higher the number of immigrants from that country. Accordingly, the highest immigration over the course of 33 years (from 1980 to 2013) was from China, India, and the Philippines, followed by Poland, Pakistan, and interestingly, the US.
+
+Notice how the legend is displaying a negative boundary or threshold. Let's fix that by defining our own thresholds and starting with 0 instead of -6,918!
+
+![image](https://user-images.githubusercontent.com/81119854/129081083-11acf226-9438-492c-98fb-4626e45ca86e.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129081120-ea806398-d4cc-4d0f-beb1-f927e490ec89.png)
+
