@@ -938,4 +938,43 @@ First, let's install the package.
 Word clouds are commonly used to perform high-level analysis and visualization of text data. Accordinly, let's digress from the immigration dataset and work with an example that involves analyzing text data. Let's try to analyze a short novel written by Lewis Carroll titled Alice's Adventures in Wonderland. Let's go ahead and download a .txt file of the novel.
 
 ![image](https://user-images.githubusercontent.com/81119854/129035413-b23fcb1d-ae45-4545-bdc4-3a99c7aee452.png)
+![image](https://user-images.githubusercontent.com/81119854/129035599-f47bc02b-ebb5-43e2-a3d3-3145d52fb662.png)
+
+Next, let's use the stopwords that we imported from word_cloud. We use the function set to remove any redundant stopwords.
+
+![image](https://user-images.githubusercontent.com/81119854/129035830-df03c162-1ab8-4bdd-9dd7-3cbb487dd9d3.png)
+
+Create a word cloud object and generate a word cloud. For simplicity, let's generate a word cloud using only the first 2000 words in the novel.
+
+![image](https://user-images.githubusercontent.com/81119854/129036159-f6d6f760-91df-4615-9fa5-9a09afef2bf8.png)
+
+Awesome! Now that the word cloud is created, let's visualize it.
+
+![image](https://user-images.githubusercontent.com/81119854/129036286-5d0ccbce-7dec-4c02-b1e4-5761991c4774.png)
+
+Interesting! So in the first 2000 words in the novel, the most common words are Alice, said, little, Queen, and so on. Let's resize the cloud so that we can see the less frequent words a little better.
+
+![image](https://user-images.githubusercontent.com/81119854/129036602-58ac729d-6b2c-43c4-b0fe-6545a545bd5c.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129036661-3750c2f8-6b18-46ce-a7cd-a56096988f7a.png)
+
+Much better! However, said isn't really an informative word. So let's add it to our stopwords and re-generate the cloud.
+
+![image](https://user-images.githubusercontent.com/81119854/129036884-d740666f-f37a-47bd-bd07-dbcb394ab1d4.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129036949-99df35c8-b4a3-4f82-90c3-68e4927f9157.png)
+
+Excellent! This looks really interesting! Another cool thing we can implement with the word_cloud package is superimposing the words onto a mask of any shape. Let's use a mask of Alice and her rabbit. The mask is already created, so let's go ahead and download it and call it alice_mask.png.
+
+![image](https://user-images.githubusercontent.com/81119854/129037422-c55a6e77-9d9d-4e03-a858-6745f5cffeb2.png)
+
+Let's take a look at how the mask looks like.
+
+![image](https://user-images.githubusercontent.com/81119854/129037539-48d548a3-5524-4fbf-91d7-07a620972ac6.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129037630-926556da-851a-42d3-b5b0-ac00f6d7da1a.png)
+
+Shaping the word cloud according to the mask is straightforward using word_cloud package. For simplicity, we will continue using the first 2000 words in the novel.
+
+![image](https://user-images.githubusercontent.com/81119854/129037887-1b97f7d1-7aa4-4fd5-9a16-abfa26239d82.png)
 
