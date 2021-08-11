@@ -1048,5 +1048,21 @@ And let's increase the size of markers so they match the new size of the figure,
 
 ![image](https://user-images.githubusercontent.com/81119854/129043228-cb08438b-d7e5-413c-9abc-265ffe538849.png)
 
+And finally increase the font size of the tickmark labels, the title, and the x- and y-labels so they don't feel left out!
 
+![image](https://user-images.githubusercontent.com/81119854/129043538-87467c68-4c47-4a2b-ada1-03d5109acb2b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129043643-85e2b1d0-c21b-4fda-ab70-4dcc42dc2019.png)
+
+If we are not a big fan of the purple background, we can easily change the style to a white plain background.
+
+![image](https://user-images.githubusercontent.com/81119854/129043806-55da4ed1-6215-47a2-a667-fc06bf4c39f9.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129043879-7de59014-5b8f-4d28-aebd-01ee235ee513.png)
+
+Or to a white background with gridlines.
+
+![image](https://user-images.githubusercontent.com/81119854/129044011-dabe0c55-697f-45ac-bb8f-d21c0133e1d5.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129044130-3706726a-23d7-4731-8dff-1776077f9827.png)
 
