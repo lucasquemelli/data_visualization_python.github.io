@@ -1058,7 +1058,7 @@ If we are not a big fan of the purple background, we can easily change the style
 
 ![image](https://user-images.githubusercontent.com/81119854/129043806-55da4ed1-6215-47a2-a667-fc06bf4c39f9.png)
 
-![image](https://user-images.githubusercontent.com/81119854/129043879-7de59014-5b8f-4d28-aebd-01ee235ee513.png)
+![image](https://user-images.githubusercontent.com/81119854/129044417-9b3f9c57-7bb7-4990-b604-446859749ae4.png)
 
 Or to a white background with gridlines.
 
