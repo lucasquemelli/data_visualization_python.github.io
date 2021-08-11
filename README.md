@@ -1076,3 +1076,63 @@ Or to a white background with gridlines.
 
 In this lab, we will learn how to create maps for different objectives. To do that, we will part ways with Matplotlib and work with another Python visualization library, namely Folium.
 
+Downloading and Prepping Data 
+
+Import Primary Modules:
+
+![image](https://user-images.githubusercontent.com/81119854/129072130-d77648af-c760-4482-bd5c-e514913044e5.png)
+
+Introduction to Folium
+
+Folium is a powerful Python library that helps you create several types of Leaflet maps. The fact that the Folium results are interactive makes this library very useful for dashboard building.
+
+Let's install Folium
+
+Folium is not available by default. So, we first need to install it before we are able to import it.
+
+![image](https://user-images.githubusercontent.com/81119854/129072862-c75a12c2-c2c3-47bd-bc01-915023d035cd.png)
+
+Generating the world map is straightforward in Folium. You simply create a Folium Map object, and then you display it. What is attractive about Folium maps is that they are interactive, so you can zoom into any region of interest despite the initial zoom level.
+
+![image](https://user-images.githubusercontent.com/81119854/129072996-40a5c8f8-223b-4a8e-9ce3-508bd65d4a5a.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129073044-ec6febe5-1c06-4681-bf76-533a3b8f9c2a.png)
+
+You can customize this default definition of the world map by specifying the centre of your map, and the initial zoom level.
+
+All locations on a map are defined by their respective Latitude and Longitude values. So you can create a map and pass in a center of Latitude and Longitude values of [0, 0].
+
+For a defined center, you can also define the initial zoom level into that location when the map is rendered. The higher the zoom level the more the map is zoomed into the center.
+
+Let's create a map centered around Canada and play with the zoom level to see how it affects the rendered map.
+
+![image](https://user-images.githubusercontent.com/81119854/129073325-e6e760e5-418c-4997-9263-fa207d5483b6.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129073462-86c98047-d253-49e6-991b-17f6cf8f1723.png)
+
+Let's create the map again with a higher zoom level.
+
+![image](https://user-images.githubusercontent.com/81119854/129073542-d39663e1-1add-48da-8e29-df1eac28d32d.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129073596-4e2ff472-a70f-41b2-9304-51c4d114dd45.png)
+
+As you can see, the higher the zoom level the more the map is zoomed into the given center.
+
+![image](https://user-images.githubusercontent.com/81119854/129073677-b769be3b-2ef3-4378-808f-1d2ca1789d84.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129073899-a272adfe-d606-43e4-89ea-2d92e07b4a08.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129073963-a591620a-b2d5-4a4a-a2cf-d6938650a05b.png)
+
+Another cool feature of Folium is that you can generate different map styles.
+
+A. Stamen Toner Maps
+
+These are high-contrast B+W (black and white) maps. They are perfect for data mashups and exploring river meanders and coastal zones.
+
+Let's create a Stamen Toner map of canada with a zoom level of 4.
+
+![image](https://user-images.githubusercontent.com/81119854/129074152-2544aff6-8520-4902-bc87-8c1bd8b35ea4.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129074202-fbd1bb52-9ae8-4fe0-be46-343b595a8ec1.png)
+
