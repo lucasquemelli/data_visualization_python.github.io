@@ -1136,3 +1136,13 @@ Let's create a Stamen Toner map of canada with a zoom level of 4.
 
 ![image](https://user-images.githubusercontent.com/81119854/129074202-fbd1bb52-9ae8-4fe0-be46-343b595a8ec1.png)
 
+B. Stamen Terrain Maps
+
+These are maps that feature hill shading and natural vegetation colors. They showcase advanced labeling and linework generalization of dual-carriageway roads.
+
+Let's create a Stamen Terrain map of Canada with zoom level 4.
+
+![image](https://user-images.githubusercontent.com/81119854/129076059-f1ed7571-aa68-4e2a-a2ae-f69dbc325f23.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129076129-ea171343-0eca-445a-823f-e326fc1fd0db.png)
+
