@@ -1004,5 +1004,49 @@ We are not dealing with any stopwords here, so there is no need to pass them whe
 
 According to the above word cloud, it looks like the majority of the people who immigrated came from one of 15 countries that are displayed by the word cloud. One cool visual that we could build, is perhaps the map of Canada and a mask and superimposing the word cloud on top of the map of Canada. 
 
+Regression Plots
+
+Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics. 
+
+In lab Pie Charts, Box Plots, Scatter Plots, and Bubble Plots, we learned how to create a scatter plot and then fit a regression line. It took ~20 lines of code to create the scatter plot along with the regression fit. In this final section, we will explore seaborn and see how efficient it is to create regression lines and fits using this library!
+
+Let's first install seaborn
+
+![image](https://user-images.githubusercontent.com/81119854/129042011-38a601d5-e212-401a-beff-5e5614c874c0.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129042093-6b1f4747-3d85-48e9-b70b-8a421e34151e.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129042150-7abb281a-6ed4-4c5f-8e35-3c9f93c4f9df.png)
+
+Create a new dataframe that stores that total number of landed immigrants to Canada per year from 1980 to 2013.
+
+![image](https://user-images.githubusercontent.com/81119854/129042355-b4e91bf6-1b40-4209-848c-5259a409c423.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129042403-c2cffd0a-5718-4f41-9fca-9ecbb98b8fb6.png)
+
+With seaborn, generating a regression plot is as simple as calling the regplot function.
+
+![image](https://user-images.githubusercontent.com/81119854/129042516-4c0f95be-4e44-4de8-868e-3705add4a51a.png)
+
+This is not magic; it is seaborn! You can also customize the color of the scatter plot and regression line. Let's change the color to green.
+
+![image](https://user-images.githubusercontent.com/81119854/129042614-25fc6dc1-1f2b-4b8a-84a6-0fb3b17d7f56.png)
+
+You can always customize the marker shape, so instead of circular markers, let's use +.
+
+![image](https://user-images.githubusercontent.com/81119854/129042719-c80ad8cf-af44-480f-96ba-bee905566182.png)
+
+Let's blow up the plot a little so that it is more appealing to the sight.
+
+![image](https://user-images.githubusercontent.com/81119854/129042886-853873e8-5eda-4614-85d5-c2ab0e6e82f9.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129042963-b000b385-1780-46a4-b687-27fe526d0983.png)
+
+And let's increase the size of markers so they match the new size of the figure, and add a title and x- and y-labels.
+
+![image](https://user-images.githubusercontent.com/81119854/129043137-316fdb34-d5b6-45c8-8861-ccc8a2cb7615.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129043228-cb08438b-d7e5-413c-9abc-265ffe538849.png)
+
 
 
