@@ -1152,3 +1152,69 @@ Let's create a Stamen Terrain map of Canada with zoom level 4.
 
 ![image](https://user-images.githubusercontent.com/81119854/129076496-81826a52-5737-4d15-a9ab-5f2e426ade68.png)
 
+Maps with Markers 
+
+Let's download and import the data on police department incidents using pandas read_csv() method.
+
+Download the dataset and read it into a pandas dataframe:
+
+![image](https://user-images.githubusercontent.com/81119854/129076718-a6aa9482-a996-440c-a824-241eba2973b5.png)
+
+Let's take a look at the first five items in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/129076799-ba3ce42c-9176-4538-93d0-2d5800e2d25f.png)
+
+So each row consists of 13 features:
+
+![image](https://user-images.githubusercontent.com/81119854/129076876-3d7ed581-e651-434c-a64d-a5259e33ae6e.png)
+
+Let's find out how many entries there are in our dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/129076943-6470ba8d-c816-4990-8f93-114b40ed5cb1.png)
+
+So the dataframe consists of 150,500 crimes, which took place in the year 2016. In order to reduce computational cost, let's just work with the first 100 incidents in this dataset.
+
+![image](https://user-images.githubusercontent.com/81119854/129077055-fc79ba6b-acae-4d5f-a83a-f8c5173189b9.png)
+
+Let's confirm that our dataframe now consists only of 100 crimes.
+
+![image](https://user-images.githubusercontent.com/81119854/129077119-17b1d142-3b95-4045-aa73-71e85d314498.png)
+
+Now that we reduced the data a little, let's visualize where these crimes took place in the city of San Francisco. We will use the default style, and we will initialize the zoom level to 12.
+
+![image](https://user-images.githubusercontent.com/81119854/129077261-a3c71608-71de-46a6-a6bf-6121e6527298.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129077324-27eb9e7e-ea88-46ad-b7ce-da3807cd85ba.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129077466-a4694790-76ba-46e5-b3d8-064147879a92.png)
+
+Now let's superimpose the locations of the crimes onto the map. The way to do that in Folium is to create a feature group with its own features and style and then add it to the sanfran_map.
+
+![image](https://user-images.githubusercontent.com/81119854/129077663-f08dacb3-76d4-4f5a-8467-a9635334b66f.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129077696-490476e0-3fbd-4672-9d00-b9e16e345d5b.png)
+
+We can also add some pop-up text that would get displayed when you hover over a marker. Let's make each marker display the category of the crime when hovered over.
+
+![image](https://user-images.githubusercontent.com/81119854/129077871-7bcfd00e-950f-439c-8f31-e212c9f7606f.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129077914-850f86a5-8de5-4679-b506-ac64c52c2888.png)
+
+Now we are able to know what crime category occurred at each marker.
+
+If we find the map to be so congested will all these markers, there are two remedies to this problem. The simpler solution is to remove these location markers and just add the text to the circle markers themselves as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/129078183-61357418-ac65-4ff1-bf85-850efdce76e6.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129078231-0c538077-d462-4622-8851-2191964e1026.png)
+
+The other proper remedy is to group the markers into different clusters. Each cluster is then represented by the number of crimes in each neighborhood. These clusters can be thought of as pockets of San Francisco which you can then analyze separately.
+
+To implement this, we start off by instantiating a MarkerCluster object and adding all the data points in the dataframe to this object.
+
+![image](https://user-images.githubusercontent.com/81119854/129078443-f2ead47f-ede4-4edc-b834-5543f6978f8b.png)
+
+![image](https://user-images.githubusercontent.com/81119854/129078484-a86973a4-a3cb-4110-8e9f-2f830d127c30.png)
+
+Notice how when you zoom out all the way, all markers are grouped into one cluster, the global cluster, of 100 markers or crimes, which is the total number of crimes in our dataframe. Once you start zooming in, the global cluster will start breaking up into smaller clusters. Zooming in all the way will result in individual markers.
+
